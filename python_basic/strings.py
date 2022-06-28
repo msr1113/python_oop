@@ -1,7 +1,5 @@
 
 
 
-mystring = 'Hello,orld'
-
-x = mystring.split(',')
-print(x)
+a="add other string :{}".format("INSERT ME")
+print(a)
