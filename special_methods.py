@@ -10,6 +10,9 @@ class Book():
     def __str__(self):
         return "Title:{},Author:{},Pages:{}".format(self.title,self.author,self.pages)
 
+    def __len__(self):
+        return self.pages
+
 b = Book("Python","jose",200)
-print(b)
+print(len(b))
 
