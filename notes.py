@@ -1,9 +1,10 @@
 x = 50
 
-def func(x):
-    print('x is:',x)
+def func():
+    # global x
     x = 1000
-    print('local x changed to',x)
+    return x
 
-func(x)
-print(x)
+print("before function call,x is :",x)
+x = func()
+print("after function call,x is :",x)
