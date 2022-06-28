@@ -13,6 +13,9 @@ class Book():
     def __len__(self):
         return self.pages
 
+    def __del__(self):
+        print("a book is destroyed")
+
 b = Book("Python","jose",200)
-print(len(b))
+del b
 
