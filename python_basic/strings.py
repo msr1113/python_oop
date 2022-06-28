@@ -6,6 +6,6 @@
 
 
 mystring = 'abcdefg'
-print(mystring[-1])
+print(mystring[2:])
 
 
