@@ -1,16 +1,17 @@
+class Circle():
 
-class Dog():
+    pi = 3.14
 
-    # CLASS OBJECT ATTRIBUTES
+    def __init__(self,radius=1):
+        self.radius = radius
 
-    species = "mammal"
+    def area(self):
+        return self.radius * self.radius * Circle.pi
 
-    def __init__(self,breed,name):
-        self.breed = breed
-        self.name = name
+    def set_radius(self,new_r):
+        self.radius = new_r
 
-mydog = Dog('lab','sammy')
 
-print(mydog.breed)
-print(mydog.name)
-print(mydog.species)
+myc = Circle(3)
+myc.set_radius(999)
+print(myc.area())
