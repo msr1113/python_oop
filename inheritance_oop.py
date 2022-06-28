@@ -9,6 +9,13 @@ class Animal():
     def eat(self):
         print('eating')
 
-mya = Animal()
-mya.whoAmI()
-mya.eat()
+class Dog(Animal):
+
+    def __init__(self):
+        # Animal.__init__(self)
+        print("DOG CREATED")
+
+
+mydog = Dog()
+mydog.whoAmI()
+mydog.eat()
