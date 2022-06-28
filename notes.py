@@ -1,20 +1,9 @@
-#lcoal
+x = 50
 
-# lambda x : x**2
+def func(x):
+    print('x is:',x)
+    x = 1000
+    print('local x changed to',x)
 
-#enclosing function lcoals
-
-name = 'this is a global name!'
-
-def greet():
-    name = "Sammy"
-    print(name)
-
-    def hello():
-        print("hello " + name)
-
-    hello()
-
-print(greet())
-
-print(name)
+func(x)
+print(x)
