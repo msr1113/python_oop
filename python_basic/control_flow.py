@@ -1,7 +1,6 @@
 # for loops
 
-seq = [1,2,3,4,5,6]
+d = {"Sam":1,"Frank":2,"Dan":3}
 
-for item in seq:
+for item in d:
     print(item)
-    print('print hello 6 times')
