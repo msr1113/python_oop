@@ -1,7 +1,7 @@
 
 
-mypairs =[(1,2),(3,4),(5,6)]
+i = 1
 
-for tup1,tup2 in mypairs:
-    print(tup2)
-    print(tup1)
+while i<5:
+    print(" i is :{}".format(i))
+    i=i+1
