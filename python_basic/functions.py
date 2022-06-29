@@ -1,4 +1,4 @@
-def my_func(param1='default'):
-     print('my first python function {}'.format(param1))
+def hello():
+     return("hello")
 
-my_func()
+print(hello())
