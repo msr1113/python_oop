@@ -1,12 +1,10 @@
+mylist = [1,2,3,4,5,6,7,8]
+filtered=[]
+def even_bool(a):
+     for num in range(len(a)):
 
-# list comprehension
-x=[1,2,3,4]
+          if num%2 == 0:
+               filtered.append(num)
+     return filtered
 
-# out = []
-# for num in x:
-#     out.append(num**2)
-#
-# print(out)
-
-out = [num**2 for num in x]
-print(out)
+print(even_bool(mylist))
