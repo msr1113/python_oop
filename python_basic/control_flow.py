@@ -1,7 +1,6 @@
-# for loops
 
-d = {"Sam":1,"Frank":2,"Dan":3}
 
-for k in d:
+mypairs =[(1,2),(3,4),(5,6)]
 
-    print(d[k])
+for item in mypairs:
+    print(item)
